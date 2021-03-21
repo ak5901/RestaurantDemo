@@ -1,0 +1,26 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+/*Contact Page*/
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+}
+
+#email{
+    flex: 2
+}
+
+
+.contactForm button{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    height: 2rem
+}
