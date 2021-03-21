@@ -9,18 +9,25 @@
     display: flex;
     flex-direction: column;
     background-color:whitesmoke;
+    max-width: 100vh;
+    padding:5px;
+    text-align: center;
 }
 
-#email{
-    flex: 2
+#email.email{
+    width: 100%;
 }
 
+.nameDiv{
+    display: flex;  
+    justify-content: space-evenly;
+}
 
 .contactForm button{
     display: block;
     width: 100%;
     outline: none;
     border: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     height: 2rem
 }
