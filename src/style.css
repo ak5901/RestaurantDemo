@@ -29,12 +29,23 @@
    }
 }
 
-.menuDiv{
-    background-color: whitesmoke;
+.foodDiv {
+    display: flex;
+    justify-content: space-around;
 }
 
-.food{
+.food {
+    margin: 5px;
+    
+}
 
+.food p {
+    text-align: center;
+}
+
+.food img{
+    width: 20vh;
+    height: 30vh;
 }
 
 /*Contact Page*/
