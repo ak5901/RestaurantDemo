@@ -29,7 +29,7 @@
    }
 }
 
-.foodDiv {
+.lunchDiv, .breakfastDiv {
     display: flex;
     justify-content: space-around;
 }
